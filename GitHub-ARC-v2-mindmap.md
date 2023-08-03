@@ -24,7 +24,7 @@ mindmap
       Scale sets
     Container Modes
       DIND
-        [CAUTION - Cannot build container images  canico would be an option]
+        [CAUTION - Cannot build container images - Kanio would be an option]
       [Kubernetes - uses github.com actions runner-container-hooks]
     Troubleshooting
       Namespaces
