@@ -25,6 +25,10 @@ mindmap
     Container Modes
       DIND
         [CAUTION - Cannot build container images - Kanio would be an option]
+        Volume mounts via init container
+        image
+        tag
+        [spec - specific version instead of latest]
       [Kubernetes - uses github.com actions runner-container-hooks]
     Troubleshooting
       Namespaces
