@@ -1,4 +1,5 @@
-
+# A mindmap about the v2 actions runner controller after GitHub moved this under /actions/
+https://github.com/actions/actions-runner-controller
 
 ```mermaid
 mindmap
@@ -15,19 +16,19 @@ mindmap
       Helm2+
       OCI compliant Helm charts
     Runner levels
-      Enterprise - PAT
-      Organization - PAT or App
-      Repo - PAT or App
+      [Enterprise - PAT]
+      [Organization - PAT or App]
+      [Repo - PAT or App]
     Components
       Scale set controller
       Scale sets
     Container Modes
       DIND
-        CAUTION - Cannot build container images - canico would be an option
-      Kubernetes - uses github.com actions runner-container-hooks
+        [CAUTION - Cannot build container images  canico would be an option]
+      [Kubernetes - uses github.com actions runner-container-hooks]
     Troubleshooting
       Namespaces
       Private CA
-      Proxy  
-      
+      Proxy        
+
 ```
