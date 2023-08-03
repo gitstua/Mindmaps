@@ -14,6 +14,7 @@ mindmap
     GitHub Copilot
       Individual
       CfB
+    Actions
     GHAS
       CodeScanning
       SecretScanning
