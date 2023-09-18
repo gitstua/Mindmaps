@@ -2,21 +2,30 @@
 
 ```mermaid
 mindmap
-  root((GitHub ARC V2))
-    GHES
-```
-
-```mermaid
-mindmap
-  orientation: right
-  My Root Node
-  - Child Node 1
-  -- Child Node 1.1
-  -- Child Node 1.2
-  --- Child Node 1.2.1
-  --- Child Node 1.2.2
-  -- Child Node 1.3
-  - Child Node 2
-  -- Child Node 2.1
-  --- Child Node 2.1.1
+  root((Actions))
+    Architecture
+      Marketplace
+      Events
+      [Our runners or self-hosted]
+      steps
+      parallel by default
+      matrix
+      secrets
+      environments
+      stored in git
+      Logs
+      Approval Gates
+    Development
+      YAML
+      In browser
+      In IDE
+      Composite actions
+      Custom actions
+      Reusable workflows
+      Required workflows
+      Starter workflows
+    Purpose
+      CI
+      CD
+      General workflows
 ```
