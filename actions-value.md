@@ -2,7 +2,7 @@
 
 ```mermaid
 mindmap
-  root((Actions))
+  root((🚀 Actions ))
     Architecture
       Marketplace
       Events
