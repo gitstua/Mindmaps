@@ -16,9 +16,9 @@ mindmap
       Machine learning
         [#️⃣ types]
           Supervised
-            Regression
+            [Regression -numeric]
             Classification
-              Binary Classification
+              [Binary Classification 0/1]
               Multiclass Classification
           Unsupervised
             Clustering
