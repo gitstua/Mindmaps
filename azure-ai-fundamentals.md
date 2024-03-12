@@ -30,6 +30,11 @@ mindmap
                   [F1-score]
                   AUC
               Multiclass Classification
+                Training algorithm
+                  OvR
+                  Multinomial
+                Eval
+                  Confusion matrix
           Unsupervised
             Clustering
         training
