@@ -17,6 +17,10 @@ mindmap
         [#️⃣ types]
           Supervised
             [Regression -numeric]
+              Evaluation Metrics
+                MSE
+                RMSE
+                R2
             Classification
               [Binary Classification 0/1]
               Multiclass Classification
