@@ -37,6 +37,12 @@ mindmap
                   Confusion matrix
           Unsupervised
             Clustering
+              [Train using k-means]
+            Eval
+              Average dist to clsuter center
+              Average dist to other center
+              Max dist to cluster center
+              Silouette
         training
           features
           label
