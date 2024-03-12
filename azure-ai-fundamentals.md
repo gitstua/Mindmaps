@@ -23,6 +23,12 @@ mindmap
                 R2
             Classification
               [Binary Classification 0/1]
+                Evaluation metrics
+                  Accuracy
+                  Recall
+                  Precision
+                  [F1-score]
+                  AUC
               Multiclass Classification
           Unsupervised
             Clustering
