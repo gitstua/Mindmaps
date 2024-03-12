@@ -14,6 +14,14 @@ mindmap
       Accountability  
     Types of AI
       Machine learning
+        [#️⃣ types]
+          Supervised
+            Regression
+            Classification
+              Binary Classification
+              Multiclass Classification
+          Unsupervised
+            Clustering
         training
           features
           label
