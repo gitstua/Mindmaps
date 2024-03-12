@@ -15,7 +15,11 @@ mindmap
     Types of AI
       Machine learning
         training
+          features
+          label
         inferencing
+          function
+          [ŷ "y-hatt"]
       Computer vision
       Natural language processing
       Document intelligence
