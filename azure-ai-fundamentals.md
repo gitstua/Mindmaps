@@ -54,5 +54,8 @@ mindmap
       Document intelligence
       Knowledge mining
       Generative AI
-      
+    Deep Learning
+      Biologic NN
+      Artificial NN
+    Azure Machine Learning
 ```
