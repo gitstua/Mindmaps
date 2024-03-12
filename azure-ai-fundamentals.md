@@ -13,7 +13,9 @@ mindmap
       Transparency
       Accountability  
     Types of AI
-      Machine learning 
+      Machine learning
+        training
+        inferencing
       Computer vision
       Natural language processing
       Document intelligence
