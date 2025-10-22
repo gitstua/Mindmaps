@@ -10,6 +10,9 @@ mindmap
     Downsides
       Breaks things
       Not supported in every browser in the same way (sometimes)
+    Basics
+      Returned as a header or a meta tag (mostly)
+      Can be different per page (resource)
     Themes
       Directives
         Fetch Directives
@@ -18,9 +21,21 @@ mindmap
           font-src
           object-src
           style-src
-
+      Navigation
+        frame-ancestors
+        form-action
+      Reporting
+        report-uri
+        report-to
+      Document
+        sandbox
+        base-uri
+      Others
+        worker-src
+        webrtc
       Getting it right
         Content-Security-Policy-Report-Only header
+        Test then test some more
         
         
         
