@@ -4,7 +4,7 @@
 mindmap
   root((🚀 CSP ))
     Benefits
-      XSS (reflected/stored)
+      XSS - reflected/stored
       Stop Data exfiltration
       Prevent framing
     Downsides
@@ -14,7 +14,32 @@ mindmap
       Returned as a header or a meta tag - mostly
       Can be different per page or resource
       Some inheritence deom default-src
-    Themes
+    Sources
+      Keywords
+        'self'
+        'none'
+      Hash
+      Nonce
+      Wildcards
+        *.example.com - excludes example.com
+        example.com
+        example.com/filename
+        example.com/foldername/
+      Special ones for scripts - strict-dynamic unsafe-eval wasm-unsafe-eval
+    Levels
+      1 - very basic
+      2 - well supported now
+      3 - strict CSP
+    Where to put the header
+      In your code
+      Web Server
+      WAF
+      Proxy
+```
+
+```mermaid
+mindmap
+Themes
       Directives
         Fetch Directives
           manifest-src
@@ -40,27 +65,6 @@ mindmap
         Content-Security-Policy-Report-Only header
         Test then test some more
         csp-evaluator.withgoogle.com
-    Sources
-      Keywords
-        'self'
-        'none'
-      Hash
-      Nonce
-      Wildcards
-        *.example.com - excludes example.com
-        example.com
-        example.com/filename
-        example.com/foldername/
-      Special ones for scripts - strict-dynamic unsafe-eval wasm-unsafe-eval
-    Levels
-      1 - very basic
-      2 - well supported now
-      3 - strict CSP
-    Where to put the header
-      In your code
-      Web Server
-      WAF
-      Proxy
 ```
 
 ## Sample policies
