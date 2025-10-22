@@ -29,7 +29,7 @@ mindmap
     Levels
       1 - very basic
       2 - well supported now
-      3 - strict CSP
+      3 - strict CSP (DRAFT W3C)
     Where to put the header
       In your code
       Web Server
