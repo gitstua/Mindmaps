@@ -23,7 +23,8 @@ mindmap
           object-src
           style-src
       Navigation
-        frame-ancestors
+        frame-ancestors like X-FRAME-OPTIONS
+        frame-src - what can you put inside this site?
         form-action
       Reporting
         report-uri
@@ -38,6 +39,7 @@ mindmap
       Getting it right
         Content-Security-Policy-Report-Only header
         Test then test some more
+        csp-evaluator.withgoogle.com
     Sources
       Keywords
         'self'
@@ -53,6 +55,7 @@ mindmap
     Levels
       1 - very basic
       2 - well supported now
+      3 - strict CSP
     Where to put the header
       In your code
       Web Server
