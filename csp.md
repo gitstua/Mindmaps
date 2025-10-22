@@ -13,7 +13,7 @@ mindmap
     Basics
       Returned as a header or a meta tag - mostly
       Can be different per page or resource
-      Some inheritence deom default-src
+      Some inheritence e.g. default-src
     Sources
       Keywords
         'self'
