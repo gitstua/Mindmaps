@@ -66,7 +66,7 @@ mindmap
 ## Sample policies
 ### Vue.JS
 ```
-Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self'; frame-src 'self';
+Content-Security-Policy: default-src 'none'; script-src 'self'; connect-src https://api.example.stuarteggerton.com; style-src 'self'; font-src 'none'; img-src 'self'; frame-ancestors 'none'; frame-src 'self'; upgrade-insecure-requests;
 ```
 
 ## Links
