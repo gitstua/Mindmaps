@@ -44,10 +44,20 @@ mindmap
         'none'
       Hash
       Nonce
+      Wildcards
+        *.example.com - excludes example.com
+        example.com
+        example.com/filename
+        example.com/foldername/
       Special ones for scripts - strict-dynamic unsafe-eval wasm-unsafe-eval
     Levels
       1 - very basic
       2 - well supported now
-
+    Where to put the header
+      In your code
+      Web Server
+      WAF
+      Proxy
+      
         
 ```
