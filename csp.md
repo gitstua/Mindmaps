@@ -9,10 +9,11 @@ mindmap
       Prevent framing
     Downsides
       Breaks things
-      Not supported in every browser in the same way (sometimes)
+      Not supported in every browser in the same way -sometimes
     Basics
-      Returned as a header or a meta tag (mostly)
-      Can be different per page (resource)
+      Returned as a header or a meta tag - mostly
+      Can be different per page or resource
+      Some inheritence deom default-src
     Themes
       Directives
         Fetch Directives
@@ -33,14 +34,17 @@ mindmap
       Others
         worker-src
         webrtc
+        upgrade-insecure-requests
       Getting it right
         Content-Security-Policy-Report-Only header
         Test then test some more
-        
-        
-        
+    Sources
+      Keywords
+        'self'
+        'none'
     Levels
       1 - very basic
       2 - well supported now
+
         
 ```
