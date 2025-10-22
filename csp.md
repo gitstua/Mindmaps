@@ -61,6 +61,16 @@ mindmap
       Web Server
       WAF
       Proxy
-      
-        
 ```
+
+## Sample policies
+### Vue.JS
+```
+Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self'; frame-src 'self';
+```
+
+## Links
+- [How to edit headers in Edge](https://learn.microsoft.com/en-us/microsoft-edge/devtools/javascript/overrides)
+- [Web.Dev article on CSP](https://web.dev/articles/csp)
+- [Great YouTube Video from NDC Security](https://youtu.be/eFbFMqaqSAk?si=jT4m4opwIcBUV6AU)
+- [OWASP - Content Security Policy Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html)
