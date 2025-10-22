@@ -26,7 +26,7 @@ mindmap
         frame-ancestors like X-FRAME-OPTIONS
         frame-src - what can you put inside this site?
         form-action
-      Reporting
+      Reporting - not well supported now
         report-uri
         report-to
       Document
