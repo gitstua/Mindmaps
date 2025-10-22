@@ -1,5 +1,5 @@
 # Content Security Policies
-
+## Overview
 ```mermaid
 mindmap
   root((🚀 CSP ))
@@ -37,9 +37,10 @@ mindmap
       Proxy
 ```
 
+## In Detail
 ```mermaid
 mindmap
-Themes
+Details
   Directives
     Fetch Directives
       manifest-src
