@@ -40,31 +40,32 @@ mindmap
 ```mermaid
 mindmap
 Themes
-      Directives
-        Fetch Directives
-          manifest-src
-          img-src
-          font-src
-          object-src
-          style-src
-      Navigation
-        frame-ancestors like X-FRAME-OPTIONS
-        frame-src - what can you put inside this site?
-        form-action
-      Reporting - not well supported now
-        report-uri
-        report-to
-      Document
-        sandbox
-        base-uri
-      Others
-        worker-src
-        webrtc
-        upgrade-insecure-requests
-      Getting it right
-        Content-Security-Policy-Report-Only header
-        Test then test some more
-        csp-evaluator.withgoogle.com
+  Directives
+    Fetch Directives
+      manifest-src
+      img-src
+      font-src
+      object-src
+      style-src
+  Navigation
+    frame-ancestors like X-FRAME-OPTIONS
+    frame-src - what can you put inside this site?
+    form-action
+  Reporting - not well supported now
+    report-uri
+    report-to
+  Document
+    sandbox
+    base-uri
+  Others
+    worker-src
+    webrtc
+    upgrade-insecure-requests
+  Getting it right
+    Content-Security-Policy-Report-Only header
+    Test then test some more
+    csp-evaluator.withgoogle.com
+    Browser console
 ```
 
 ## Sample policies
