@@ -42,6 +42,9 @@ mindmap
       Keywords
         'self'
         'none'
+      Hash
+      Nonce
+      Special ones for scripts - strict-dynamic unsafe-eval wasm-unsafe-eval
     Levels
       1 - very basic
       2 - well supported now
