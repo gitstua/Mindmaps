@@ -5,10 +5,10 @@ A mindmap I built to help those studying for [AWS Certified AU Practitioner AID-
 ```mermaid
 mindmap
   root((AWS AI))
-    AI General
-        A
-        B
-        C
+    Artificial Intelligence
+        Machine learning
+        Deep Learning
+        Generative AI
     AWS AI products
         Bedrock
         Sagemaker
