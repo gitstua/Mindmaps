@@ -28,4 +28,16 @@ mindmap
       One Shot ONE example
       Few Shot SEVERAL examples
       Chain of thought reasoning steps
+    Tasks by service
+      OCR Textract
+      Image analysis Rekognition
+      NLP Comprehend
+      Speech → text Transcribe
+      Text → speech Polly
+    Fitting
+      Overfitting Model memorizes training data and performs poorly on new data
+      Underfitting Model too simple and fails to capture patterns
+
+
+
 ```
