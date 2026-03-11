@@ -14,8 +14,8 @@ mindmap
       sagemaker["SageMaker"]
     metrics["Classification Metrics"]
       accuracy["Accuracy - correct predictions over total predictions: TP+TN / (TP+TN+FP+FN)"]
-      precision["Precision - how many predicted positives are actually positive: TP / (TP+FP) - MEDICAL DIAGNOSIS"]
-      recall["Recall (sensitivity) - proportion of positive instances identified by the model: TP / (TP+FN) - FRAUD and security"]
+      precision["Precision - Can I trust the positive predictions? - how many predicted positives are actually positive: TP / (TP+FP) - MEDICAL DIAGNOSIS"]
+      recall["Recall (sensitivity) - Did we miss any positives? - proportion of positive instances identified by the model: TP / (TP+FN) - FRAUD and security"]
       f1["F1 Score - balance between precision and recall: 2 x (precision x recall) / (precision + recall)"]
         
 ```
