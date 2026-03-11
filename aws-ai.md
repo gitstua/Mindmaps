@@ -38,7 +38,7 @@ mindmap
       Overfitting Model memorizes training data and performs poorly on new data
       Underfitting Model too simple and fails to capture patterns
     Dataset
-      Training - input data to train the model
+      Training - teach model patterns and adjust weights
       Validation  tune hyperparameters
       Test tune final performance
 
