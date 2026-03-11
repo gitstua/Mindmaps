@@ -13,9 +13,9 @@ mindmap
       bedrock["Bedrock"]
       sagemaker["SageMaker"]
     metrics["Classification Metrics"]
-      accuracy["Accuracy - correct predictions over total predictions: TP+TN / (TP+TN+FP+FN)"]
-      precision["Precision - Can I trust the positive predictions? - how many predicted positives are actually positive: TP / (TP+FP) - MEDICAL DIAGNOSIS"]
-      Recall["Recall (sensitivity) - Did we miss any positives? - proportion of positive instances identified by the model: TP / (TP+FN) - FRAUD and security"]
+      accuracy["Accuracy - overall correctness. correct predictions over total predictions: TP+TN / (TP+TN+FP+FN)"]
+      precision["Precision - false positives. Can I trust the positive predictions? - how many predicted positives are actually positive: TP / (TP+FP) - MEDICAL DIAGNOSIS"]
+      Recall["Recall (sensitivity) - false negatives. Did we miss any positives? - proportion of positive instances identified by the model: TP / (TP+FN) - FRAUD and security"]
       f1["F1 Score - balance between precision and recall: 2 x (precision x recall) / (precision + recall)"]
     regression vs classification
       regression["regression = MSE, RMSE"]
