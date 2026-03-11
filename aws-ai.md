@@ -17,7 +17,15 @@ mindmap
       precision["Precision - Can I trust the positive predictions? - how many predicted positives are actually positive: TP / (TP+FP) - MEDICAL DIAGNOSIS"]
       recall["Recall (sensitivity) - Did we miss any positives? - proportion of positive instances identified by the model: TP / (TP+FN) - FRAUD and security"]
       f1["F1 Score - balance between precision and recall: 2 x (precision x recall) / (precision + recall)"]
+    regression vs classification
+      regression["regression = MSE, RMSE"]
+      classification["classification = precision, recall, F1"]
     Temperature
       high["High(ly random)"]
       low[Low creatitvity]
+    Prompt Types
+      Zero Shot NO examples
+      One Shot ONE example
+      Few Shot SEVERAL examples
+      Chain of thought reasoning steps
 ```
