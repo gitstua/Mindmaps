@@ -17,5 +17,7 @@ mindmap
       precision["Precision - Can I trust the positive predictions? - how many predicted positives are actually positive: TP / (TP+FP) - MEDICAL DIAGNOSIS"]
       recall["Recall (sensitivity) - Did we miss any positives? - proportion of positive instances identified by the model: TP / (TP+FN) - FRAUD and security"]
       f1["F1 Score - balance between precision and recall: 2 x (precision x recall) / (precision + recall)"]
-        
+    Temperature
+      high["High(ly random)"]
+      low[Low creatitvity]
 ```
